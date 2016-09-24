@@ -1,0 +1,9 @@
+しょーします<br>
+
+<%= @user.email %>の投稿
+<%= @user.articles.each do |article| %>
+
+  <%= article.title %><br>
+  <%= article.author %><br>
+
+<% end %>
